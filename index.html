@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Isman" />
+        <meta name="description" content="TashkentVideoFooods" />
+        <meta name="keywords" content="Tasheknt Foods, Tiktok Foods, Reels Foods" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=1, user-scalable=yes" />
+        <title>Tashkent Meal</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="img/bibimbap.ico" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/bibimbap.ico" />
+                <span class="site-title">OrderUz</span>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#" data-target="home">Home</a></li>
+                    <li><a href="#" data-target="news">News</a></li>
+                    <li><a href="#" data-target="partnership">Partnership</a></li>
+                    <li><a href="#" data-target="support">Support</a></li>
+                </ul>
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+            <div class="reg">
+                <a href="index.html">Sign up</a>
+            </div>
+        </header>
+        <div class="overlay"></div>
+        <div id="home" class="home-section">
+          <div class="video-wrapper">
+            <button class="switch-btn left-btn">⟨</button>
+            <div class="video-container">
+                <video class="food-video" autoplay loop muted playsinline>
+                    <source src="video/854105-hd_1920_1080_25fps.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div class="video-overlay">
+                <button class="more-btn">More...</button>
+            </div>
+            <button class="switch-btn right-btn">⟩</button>
+          </div>
+        
+          <div class="video-actions">
+              <button>Order 🛒</button>
+              <button>Settings 📂</button>
+              <button>Report ⚠️</button>
+              <button>Share 📢</button>
+          </div>
+        </div>
+                <div class="content-container">
+                    <section id="news" class="content-section">
+                        <div class="content-inner">
+                            <h2>Latest News</h2>
+                            <div class="content-grid">
+                                <article class="card news-card">
+                                    <h3>OrderUz launches new chef-curated menus</h3>
+                                    <p>We've partnered with local chefs to bring seasonal, chef-curated menus directly to your door. Expect quality ingredients, curated recipes, and an easier ordering experience.</p>
+                                    <time datetime="2026-01-20">Jan 20, 2026</time>
+                                </article>
+                                <article class="card news-card">
+                                    <h3>Faster delivery zones added</h3>
+                                    <p>We expanded our quick-delivery coverage in major neighborhoods — look for the lightning badge on eligible restaurants.</p>
+                                    <time datetime="2026-01-15">Jan 15, 2026</time>
+                                </article>
+                                <article class="card news-card">
+                                    <h3>Sustainability packaging rollout</h3>
+                                    <p>OrderUz is rolling out recyclable packaging across multiple kitchen partners to reduce single-use plastics.</p>
+                                    <time datetime="2026-01-10">Jan 10, 2026</time>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="partnership" class="content-section">
+                        <div class="content-inner">
+                            <h2>Partnership Opportunities</h2>
+                            <div class="partner-grid">
+                                <div class="card partner-info">
+                                    <p>OrderUz works with restaurants, caterers, and food brands to expand reach and delight customers. Join us to get featured in chef spotlights, promoted menus, and priority delivery slots.</p>
+                                    <ul>
+                                        <li>Marketing support and promotions</li>
+                                        <li>Operational onboarding and analytics</li>
+                                        <li>Flexible commission plans</li>
+                                    </ul>
+                                    <p>Contact our partnerships team: <a href="mailto:partners@orderuz.example">partners@orderuz.example</a></p>
+                                </div>
+                                <aside class="card partner-cta">
+                                    <h3>Become a partner</h3>
+                                    <form class="partner-form" action="#" method="post">
+                                        <input type="text" name="business" placeholder="Business name" required />
+                                        <input type="email" name="email" placeholder="Contact email" required />
+                                        <input type="text" name="city" placeholder="City / Area" />
+                                        <button type="submit">Request Partnership</button>
+                                    </form>
+                                </aside>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="support" class="content-section">
+                        <div class="content-inner">
+                            <h2>Support & Contact</h2>
+                            <div class="support-grid">
+                                <div class="card faq">
+                                    <h3>Frequently Asked Questions</h3>
+                                    <dl>
+                                        <dt>How do I track my order?</dt>
+                                        <dd>Open Orders in your account and select the active order to view live status and ETA.</dd>
+                                        <dt>What if an item is missing?</dt>
+                                        <dd>Use the contact form or start a chat; we'll investigate and offer a refund or replacement when appropriate.</dd>
+                                        <dt>Can I change my delivery address?</dt>
+                                        <dd>Delivery addresses can be changed before the restaurant accepts the order. After acceptance, contact support immediately.</dd>
+                                    </dl>
+                                </div>
+                                <aside class="card contact-cta">
+                                    <h3>Contact Support</h3>
+                                    <form class="contact-form" action="#" method="post">
+                                        <input type="text" name="name" placeholder="Your name" required />
+                                        <input type="email" name="email" placeholder="Your email" required />
+                                        <textarea name="message" rows="6" placeholder="How can we help?" required></textarea>
+                                        <button type="submit">Send Message</button>
+                                    </form>
+                                </aside>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+        <footer class="site-footer">
+            <div class="footer-inner">
+                <div class="footer-about">
+                    <h3>Tashkent Meal</h3>
+                    <p>Culinary videos, recipes and delivery of favorite dishes from Tashkent.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#" data-target="home">Home</a></li>
+                        <li><a href="#" data-target="news">News</a></li>
+                        <li><a href="#" data-target="partnership">Partnership</a></li>
+                        <li><a href="#" data-target="support">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>Address: Tashkent, Uzbekistan</p>
+                    <p>Phone: <a href="tel:+998711234567">+998 71 123 45 67</a></p>
+                    <p>Email: <a href="mailto:info@tashkentmeal.uz">info@tashkentmeal.uz</a></p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <p>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        · <a href="#" aria-label="TikTok">TikTok</a>
+                        · <a href="#" aria-label="YouTube">YouTube</a>
+                        <a href="#" aria-labelledby=""></a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Tashkent Meal. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
